@@ -1,14 +1,14 @@
 PRODUCT_PACKAGES += \
   sscoredump \
 
-PRODUCT_PACKAGES_DEBUG += \
+PRODUCT_PACKAGES_ENG += \
     dump_ramdump \
     ramdump \
 
 # When neither AOSP nor factory targets
 ifeq (,$(filter aosp_% factory_%, $(TARGET_PRODUCT)))
   PRODUCT_PACKAGES += SSRestartDetector
-  PRODUCT_PACKAGES_DEBUG += RamdumpUploader
+  PRODUCT_PACKAGES_ENG += RamdumpUploader
 endif
 
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/gs-common/ramdump_and_coredump/sepolicy
