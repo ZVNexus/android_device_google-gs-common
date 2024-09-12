@@ -1,0 +1,5 @@
+{
+  "provideLibs": [
+    "lib_aion_buffer.so"
+  ]
+}

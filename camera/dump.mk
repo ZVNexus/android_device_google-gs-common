@@ -4,3 +4,5 @@ PRODUCT_PRIVATE_SEPOLICY_DIRS += device/google/gs-common/camera/sepolicy/product
 
 PRODUCT_PACKAGES_ENG += dump_camera
 
+PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
+    device/google/gs-common/camera/linker.config.json
