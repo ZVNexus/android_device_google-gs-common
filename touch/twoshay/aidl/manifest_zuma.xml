@@ -1,7 +1,7 @@
 <manifest version="1.0" type="device">
     <hal format="aidl">
         <name>com.google.input</name>
-        <version>3</version>
+        <version>2</version>
         <interface>
             <name>ITouchContextService</name>
             <instance>default</instance>
@@ -9,7 +9,7 @@
     </hal>
     <hal format="aidl">
         <name>com.google.input.algos.gril</name>
-        <version>3</version>
+        <version>2</version>
         <interface>
             <name>IGrilAntennaTuningService</name>
             <instance>default</instance>
@@ -17,7 +17,7 @@
     </hal>
     <hal format="aidl">
         <name>com.google.input.algos.spd</name>
-        <version>3</version>
+        <version>2</version>
         <interface>
             <name>IScreenProtectorDetectorService</name>
             <instance>default</instance>
